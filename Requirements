@@ -1,8 +1,7 @@
 streamlit
 numpy
 pandas
-scipy.optimize
+scipy.optimize.root
 plotly.express
 plotly.graph_objects
-time
-warnings
+
