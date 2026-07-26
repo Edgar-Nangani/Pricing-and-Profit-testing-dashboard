@@ -1,0 +1,8 @@
+streamlit
+numpy
+pandas
+scipy.optimize
+plotly.express
+plotly.graph_objects
+time
+warnings
