@@ -808,7 +808,8 @@ def main():
     with st.sidebar:
         st.markdown('<div class="sidebar-header">👤 Policyholder Information</div>', unsafe_allow_html=True)
         
-        age = st.slider("Age (years)", min_value=20, max_value=70, value=30, step=1)
+        # ========== UPDATED AGE RANGE: 20-60 ==========
+        age = st.slider("Age (years)", min_value=20, max_value=60, value=30, step=1)
         gender = st.selectbox("Gender", ["Female", "Male"])
         
         # Only 5 and 10 year terms
